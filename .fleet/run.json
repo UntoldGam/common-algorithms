@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "python",
+            "name": "Python configuration",
+            "arguments": ["main.py"],
+        },
+      {
+          "type": "command",
+          "name": "Command configuration",
+          "program": "$USER_HOME$\AppData\Local\Programs\Python\Python311\python.exe",
+      },
+        
+        
+    ]
+}
