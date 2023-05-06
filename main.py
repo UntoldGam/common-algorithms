@@ -6,7 +6,8 @@ testData = [1,5,6,7,8,9]
 testQuery = 200
 categories = getCategories()
 debug = True
-numberCheck = lambda text: re.search("^\d*$", text) 
+numberCheck = lambda text: re.search("^\d*$", text)
+
 def formatSearchResult(isFound, queryIndex, query):
     queryRes = f'{query} was found at index {queryIndex}' if isFound else f'{query} was not found'
     return queryRes + "\n"
