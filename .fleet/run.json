@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "python",
+            "name": "Run: main.py",
+            "arguments": ["main.py"],
+        },
+        {
+            "type": "command",
+            "name": "Run: index.js",
+            "program": "C:/Program Files/nodejs/node.exe",
+            "args": ["index.js"],
+        },
+    ]
+}
