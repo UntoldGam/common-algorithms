@@ -32,13 +32,14 @@ if __name__ == "__main__":
             start_time = time()
             result = runAlgorithm(newDataSet, query)
             end_time = start_time - time()
-            isFound, queryIndex = rresult[0],result[1]
+            isFound, queryIndex = result[0],result[1]
             message = formatSearchResult(isFound, queryIndex, query) + formatEndTime(end_time)
         elif category == "Sorting":
             order = input("What order would you like the data to be sorted into? ")
+            start_time = time()
             result = runAlgorithm(newDataSet, order)
             end_time = start_time - time()
             isSorted, sortedData = result[0],result[1]
-            message = formatSortResult(isSorted, sortedData, originalData) + formatEndTime(end_time)
+            message = formatSortResult(isSorted, sortedData, newDataSet) + formatEndTime(end_time)
         print(message, end="\n")
         
