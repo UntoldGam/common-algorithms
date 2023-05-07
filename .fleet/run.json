@@ -2,15 +2,14 @@
     "configurations": [
         {
             "type": "python",
-            "name": "Python configuration",
+            "name": "Run: main.py",
             "arguments": ["main.py"],
         },
-      {
-          "type": "command",
-          "name": "Command configuration",
-          "program": "$USER_HOME$\AppData\Local\Programs\Python\Python311\python.exe",
-      },
-        
-        
+        {
+            "type": "command",
+            "name": "Run: index.js",
+            "program": "C:/Program Files/nodejs/node.exe",
+            "args": ["index.js"],
+        },
     ]
 }
